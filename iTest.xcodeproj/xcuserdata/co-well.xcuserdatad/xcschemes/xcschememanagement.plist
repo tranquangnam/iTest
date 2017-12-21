@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>iTest copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>iTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,11 +18,6 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
-		</dict>
-		<key>iTest_Test.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -48,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>204F3B241FEB5B16004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20D910261FEBC3B200D90EC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

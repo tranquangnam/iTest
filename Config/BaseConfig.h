@@ -9,6 +9,6 @@
 #ifndef BaseConfig_h
 #define BaseConfig_h
 
-public static char* BASE_URL = "wwww.f";
+
 
 #endif /* BaseConfig_h */

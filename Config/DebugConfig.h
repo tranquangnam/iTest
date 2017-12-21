@@ -9,6 +9,4 @@
 #ifndef TestConfig_h
 #define TestConfig_h
 
-public static char* BASE_URL = "wwww.f";
-
 #endif /* TestConfig_h */
