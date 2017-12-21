@@ -9,6 +9,49 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iTestDebug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>iTest_Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>204F3AD11FEB56CD004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F3AE51FEB56CD004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F3AF01FEB56CD004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F3B061FEB5B15004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F3B191FEB5B16004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>204F3B241FEB5B16004D392A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
