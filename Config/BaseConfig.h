@@ -9,6 +9,6 @@
 #ifndef BaseConfig_h
 #define BaseConfig_h
 
-
+#define BASE_URL "https://ghibliapi.herokuapp.com/"
 
 #endif /* BaseConfig_h */

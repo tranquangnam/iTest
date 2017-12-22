@@ -17,4 +17,19 @@ class BaseViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning();
     }
+    
+    func showDialog(message: String) -> Void {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert);
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+                
+            case .destructive:
+                print("destructive")
+                
+                
+            }}))
+        self.present(alert, animated: true, completion: nil);
+    }
 }

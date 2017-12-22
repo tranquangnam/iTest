@@ -9,4 +9,6 @@
 #ifndef TestConfig_h
 #define TestConfig_h
 
+#define BASE_URL "https://ghibliapi.herokuapp.com/"
+
 #endif /* TestConfig_h */
