@@ -27,6 +27,8 @@
 		20D910301FEBC3B200D90EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F3ADC1FEB56CD004D392A /* Assets.xcassets */; };
 		20D910311FEBC3B200D90EC6 /* MainInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204F3AE11FEB56CD004D392A /* MainInfo.plist */; };
 		20D910321FEBC3B200D90EC6 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F3B681FEB9DB6004D392A /* HomeView.xib */; };
+		CD90F2ED1FEC9FDD00582865 /* DebugInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD90F2EC1FEC9FDD00582865 /* DebugInfo.plist */; };
+		CD90F2EE1FEC9FDD00582865 /* DebugInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD90F2EC1FEC9FDD00582865 /* DebugInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +70,8 @@
 		204F3B771FEBA215004D392A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/DetailView.strings; sourceTree = "<group>"; };
 		204F3B791FEBA304004D392A /* BaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseConfig.h; sourceTree = "<group>"; };
 		204F3B7A1FEBA84A004D392A /* DebugConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugConfig.h; sourceTree = "<group>"; };
-		205801A41FEBC04A00F2A761 /* DebugInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DebugInfo.plist; path = "/Users/co-well/Documents/iTest/Config/DebugInfo.plist"; sourceTree = "<absolute>"; };
 		20D910361FEBC3B200D90EC6 /* iTestDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTestDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD90F2EC1FEC9FDD00582865 /* DebugInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DebugInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +220,7 @@
 		204F3B781FEBA2D3004D392A /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				205801A41FEBC04A00F2A761 /* DebugInfo.plist */,
+				CD90F2EC1FEC9FDD00582865 /* DebugInfo.plist */,
 				204F3AE11FEB56CD004D392A /* MainInfo.plist */,
 				204F3B791FEBA304004D392A /* BaseConfig.h */,
 				204F3B7A1FEBA84A004D392A /* DebugConfig.h */,
@@ -355,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD90F2ED1FEC9FDD00582865 /* DebugInfo.plist in Resources */,
 				204F3B5E1FEB97FB004D392A /* Localizable.strings in Resources */,
 				204F3B721FEBA20C004D392A /* DetailView.xib in Resources */,
 				204F3ADD1FEB56CD004D392A /* Assets.xcassets in Resources */,
@@ -381,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD90F2EE1FEC9FDD00582865 /* DebugInfo.plist in Resources */,
 				20D9102E1FEBC3B200D90EC6 /* Localizable.strings in Resources */,
 				20D9102F1FEBC3B200D90EC6 /* DetailView.xib in Resources */,
 				20D910301FEBC3B200D90EC6 /* Assets.xcassets in Resources */,
