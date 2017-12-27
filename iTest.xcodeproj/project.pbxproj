@@ -45,6 +45,14 @@
 		20D910301FEBC3B200D90EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204F3ADC1FEB56CD004D392A /* Assets.xcassets */; };
 		20D910311FEBC3B200D90EC6 /* MainInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204F3AE11FEB56CD004D392A /* MainInfo.plist */; };
 		20D910321FEBC3B200D90EC6 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204F3B681FEB9DB6004D392A /* HomeView.xib */; };
+		20EB2A551FF0A44900375DA4 /* LeftMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20EB2A541FF0A44900375DA4 /* LeftMenu.xib */; };
+		20EB2A561FF0A44900375DA4 /* LeftMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20EB2A541FF0A44900375DA4 /* LeftMenu.xib */; };
+		20EB2A5B1FF0B57F00375DA4 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A5A1FF0B57F00375DA4 /* MenuItemCell.swift */; };
+		20EB2A5C1FF0B57F00375DA4 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A5A1FF0B57F00375DA4 /* MenuItemCell.swift */; };
+		20EB2A9A1FF0DB1500375DA4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A991FF0DB1500375DA4 /* MenuTableViewController.swift */; };
+		20EB2A9B1FF0DB1500375DA4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A991FF0DB1500375DA4 /* MenuTableViewController.swift */; };
+		20EB2A9D1FF1115E00375DA4 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A9C1FF1115E00375DA4 /* ContainerController.swift */; };
+		20EB2A9E1FF1115E00375DA4 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB2A9C1FF1115E00375DA4 /* ContainerController.swift */; };
 		DE08CAAEE68A4712290FBCC2 /* Pods_iTestDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130E564EE5595366264453F0 /* Pods_iTestDebug.framework */; };
 		E1503C5D5CEDDCB0975283B7 /* Pods_iTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAB41DBDE39697FCBD0861E /* Pods_iTest.framework */; };
 /* End PBXBuildFile section */
@@ -102,6 +110,10 @@
 		20BFC4201FECFF5C009303AB /* MovieInfoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoDAO.swift; sourceTree = "<group>"; };
 		20BFC4231FED0032009303AB /* BaseDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDAO.swift; sourceTree = "<group>"; };
 		20D910361FEBC3B200D90EC6 /* iTestDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTestDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EB2A541FF0A44900375DA4 /* LeftMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftMenu.xib; sourceTree = "<group>"; };
+		20EB2A5A1FF0B57F00375DA4 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		20EB2A991FF0DB1500375DA4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		20EB2A9C1FF1115E00375DA4 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		2AAB41DBDE39697FCBD0861E /* Pods_iTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78281F916EF8258D37A4F2E7 /* Pods-iTestDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTestDebug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTestDebug/Pods-iTestDebug.debug.xcconfig"; sourceTree = "<group>"; };
 		BFC7A913AF8E71D970ABE921 /* Pods-iTestDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTestDebug.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTestDebug/Pods-iTestDebug.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +184,7 @@
 		204F3AD41FEB56CD004D392A /* iTest */ = {
 			isa = PBXGroup;
 			children = (
+				20EB2A521FF0962400375DA4 /* UI */,
 				20BFC41A1FECF2F7009303AB /* Common */,
 				20BFC4091FECC21A009303AB /* data */,
 				20BFC4051FECB5A9009303AB /* Helper */,
@@ -215,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				204F3B371FEB5D5A004D392A /* BaseController.swift */,
+				20EB2A9C1FF1115E00375DA4 /* ContainerController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -330,6 +344,24 @@
 				20BFC4231FED0032009303AB /* BaseDAO.swift */,
 			);
 			path = dao;
+			sourceTree = "<group>";
+		};
+		20EB2A521FF0962400375DA4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				20EB2A531FF0A41C00375DA4 /* LeftMenu */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		20EB2A531FF0A41C00375DA4 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				20EB2A541FF0A44900375DA4 /* LeftMenu.xib */,
+				20EB2A5A1FF0B57F00375DA4 /* MenuItemCell.swift */,
+				20EB2A991FF0DB1500375DA4 /* MenuTableViewController.swift */,
+			);
+			path = LeftMenu;
 			sourceTree = "<group>";
 		};
 		4F0111DD0AD0430C106EE859 /* Pods */ = {
@@ -490,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				204F3B5E1FEB97FB004D392A /* Localizable.strings in Resources */,
+				20EB2A551FF0A44900375DA4 /* LeftMenu.xib in Resources */,
 				204F3B721FEBA20C004D392A /* DetailView.xib in Resources */,
 				204F3ADD1FEB56CD004D392A /* Assets.xcassets in Resources */,
 				204F3B7D1FEBB38D004D392A /* MainInfo.plist in Resources */,
@@ -516,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D9102E1FEBC3B200D90EC6 /* Localizable.strings in Resources */,
+				20EB2A561FF0A44900375DA4 /* LeftMenu.xib in Resources */,
 				20D9102F1FEBC3B200D90EC6 /* DetailView.xib in Resources */,
 				20D910301FEBC3B200D90EC6 /* Assets.xcassets in Resources */,
 				20D910311FEBC3B200D90EC6 /* MainInfo.plist in Resources */,
@@ -634,13 +668,16 @@
 			files = (
 				204F3B4F1FEB6FE4004D392A /* DetailController.swift in Sources */,
 				204F3B381FEB5D5A004D392A /* BaseController.swift in Sources */,
+				20EB2A9A1FF0DB1500375DA4 /* MenuTableViewController.swift in Sources */,
 				20BFC4181FECE901009303AB /* Utils.swift in Sources */,
 				20BFC40F1FECE393009303AB /* BaseRequest.swift in Sources */,
 				20BFC4071FECB6B3009303AB /* NetworkHelper.swift in Sources */,
 				20BFC4121FECE42B009303AB /* BaseResponse.swift in Sources */,
+				20EB2A5B1FF0B57F00375DA4 /* MenuItemCell.swift in Sources */,
 				20BFC4151FECE7F3009303AB /* MovieResponse.swift in Sources */,
 				20BFC41C1FECF303009303AB /* Constant.swift in Sources */,
 				204F3AD61FEB56CD004D392A /* AppDelegate.swift in Sources */,
+				20EB2A9D1FF1115E00375DA4 /* ContainerController.swift in Sources */,
 				20BFC4211FECFF5C009303AB /* MovieInfoDAO.swift in Sources */,
 				204F3B3C1FEB5E7B004D392A /* HomeViewController.swift in Sources */,
 				20BFC4241FED0032009303AB /* BaseDAO.swift in Sources */,
@@ -669,13 +706,16 @@
 			files = (
 				20D910281FEBC3B200D90EC6 /* DetailController.swift in Sources */,
 				20D910291FEBC3B200D90EC6 /* BaseController.swift in Sources */,
+				20EB2A9B1FF0DB1500375DA4 /* MenuTableViewController.swift in Sources */,
 				20BFC4191FECE901009303AB /* Utils.swift in Sources */,
 				20BFC4101FECE393009303AB /* BaseRequest.swift in Sources */,
 				20BFC4081FECB6B3009303AB /* NetworkHelper.swift in Sources */,
 				20BFC4131FECE42B009303AB /* BaseResponse.swift in Sources */,
+				20EB2A5C1FF0B57F00375DA4 /* MenuItemCell.swift in Sources */,
 				20BFC4161FECE7F3009303AB /* MovieResponse.swift in Sources */,
 				20BFC41D1FECF303009303AB /* Constant.swift in Sources */,
 				20D9102A1FEBC3B200D90EC6 /* AppDelegate.swift in Sources */,
+				20EB2A9E1FF1115E00375DA4 /* ContainerController.swift in Sources */,
 				20BFC4221FECFF5C009303AB /* MovieInfoDAO.swift in Sources */,
 				20D9102B1FEBC3B200D90EC6 /* HomeViewController.swift in Sources */,
 				20BFC4251FED0032009303AB /* BaseDAO.swift in Sources */,

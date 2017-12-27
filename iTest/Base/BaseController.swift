@@ -29,6 +29,8 @@ class BaseViewController: UIViewController {
                 print("destructive")
                 
                 
+            case .cancel:
+                print("Cancel")
             }}))
         self.present(alert, animated: true, completion: nil);
     }
