@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ContainerController: UINavigationController {
+protocol ContainerDelegate: class {
+    func showMenu() -> Void
+    
+    func hideMenu() -> Void
+}
+
+class ContainerController: UINavigationController, ContainerDelegate {
     
     let ANIMATE_TIME = 0.4;
     

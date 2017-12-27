@@ -11,12 +11,14 @@ import UIKit
 
 class HomeViewController: BaseViewController {
     
-    
+    weak var mNavigationDelegate: ContainerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad();
         
         self.title = NSLocalizedString("home_title", comment: "");
+        mNavigationDelegate = parent as? ContainerDelegate;
+        
         setupSettingButton();
     }
     
@@ -30,10 +32,9 @@ class HomeViewController: BaseViewController {
     }
     
     @objc func showLeftMenu() {
-        if let container = parent as? ContainerController {
-            container.showMenu();
-        }
+        mNavigationDelegate?.showMenu();
     }
+    
     
 //    @objc func hideMenu() {
 //        if let container = parent as? ContainerController {
